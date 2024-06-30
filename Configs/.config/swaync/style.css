@@ -22,7 +22,7 @@
 }
 
 .control-center .notification-content {
-  background: @shade-lighter;
+  background: @main-bg;
 }
 
 .notification-row:focus .notification,
@@ -48,7 +48,7 @@
 }
 
 .notification-content {
-  background: @noti-bg;
+  background: @main-bg;
   padding: 10px;
   border-radius: 0px;
 }
@@ -160,7 +160,9 @@
   /*border-right: 3px solid #79c3ee;*/
   /*border-left: 3px solid #79c3ee;*/
   padding: 8px;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.7),
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.3),
+    0 1px 3px 1px rgba(0, 0, 0, 0.7),
     0 2px 6px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -299,7 +301,7 @@ carouselindicatordots {
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 .widget-mpris-subtitle {
-  color: @main-bg;
+  color: @main-fg;
   font-size: 1rem;
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
 }
@@ -317,7 +319,7 @@ carouselindicatordots {
   padding: 8px;
   margin: 8px;
   border-radius: 9px;
-  background-color: @text;
+  background-color: transparent;
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button {
@@ -347,7 +349,7 @@ carouselindicatordots {
 /* Volume widget */
 
 .widget-volume {
-  background-color: @main-bg;
+  background-color: transparent;
   padding: 8px;
   margin: 8px;
   border-radius: 9px;
